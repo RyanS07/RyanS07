@@ -30,7 +30,7 @@ Created a Luigi's Mansion themed aim-labs game where the player needs to hit gho
 Trained a convolutional neural network to predict the genre of a sample of music to 70% accuracy using TensorFlow and Keras. \
 Repo Link: https://github.com/RyanS07/music-genre-classifier 
 
-### Authentication Middleware (Python, FASTAPI), **For Work**
+### Authentication Middleware (Python, FASTAPI), *For Work*
 Designed a middleware to handle user authentication requests from the front-end by redirecting them to a central authentication server away from the back-end. By using FASTAPI dependencies, I was able to attach permissions to a back-end endpoint through decorators and a list of all the permissions a request needs. This streamlined API development and was implemented in 10+ services. 
 ```
 @requires(["admin_permission", "this_workspace_permission"])
@@ -42,7 +42,7 @@ def some_api_endpoint(...):
 Created a JavaFX application that imitated my high school chemistry data sheet with some additional ideal gas law calculators. \
 Repo Link: https://github.com/RyanS07/Chemistry-Database-and-Calculator
 
-### Infrared Photobooth (Python, Flask, OpenCV), **For Work**
+### Infrared Photobooth (Python, Flask, OpenCV), *For Work*
 In this project, I built a full-stack trade show demo using Flask that could take an infrared photo of the user in exchange for their contact information. After extracting the IR camera's footage using its SDK, I processed it using OpenCV to blend with another visible light camera and create 50/50 IR/VL footage. This footage was then streamed to the front end using multithreading. 
 
 ### 1v1 Shooter Game (Java, JavaFX)
