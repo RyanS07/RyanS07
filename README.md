@@ -18,6 +18,9 @@ Designed and taught an 8-day workshop teaching first year electrical and compute
 
 Students were then given 5 days to design and implement their own robot designs with the teaching team's help where necessary to compete on a circuit-themed course. Their CAD designs where passed to a 3D printing lab at UofT to manufacture their robot bodies. The final track and each team's robots can be seen below:
 
+![alt text](http://github.com/RyanS07/RyanS07/blob/main/images/MicRobotics%20Field.jpg)
+![alt text](https://github.com/RyanS07/RyanS07/blob/main/images/MicRobotics%20Teams.jpg)
+
 ***The competition caught the attention of the Chair of the ECE department at UofT, and upon being very impressed offered to support the workshop in future by providing a dedicated facility and full funding.***
 
 ### OSM ArcGIS Map (C++, GTK), *For School*
