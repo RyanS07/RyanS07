@@ -10,8 +10,15 @@ Email: [ryan.seto@mail.utoronto.ca](ryan.seto@mail.utoronto.ca)
 ### Disclaimer
 A majority of my projects are from internships/research terms or school. As such, unfortunately I can't share much code here because their source codes cannot be shared publically.  
 
-### Microbot For Line-Tracking (Arduino, AutoCAD), *For Research Term*
-Designed and built a miniature robot that can follow a black line to a destination using IR sensors and an Arduino. Currently still in development.
+### Line-Tracking Arduino Robot Workshop (Arduino, AutoDesk Fusino 360), *For Research Term*
+Designed and taught an 8-day workshop teaching first year electrical and computer engineering (ECE) students how to CAD, wire, and program an Arduino-controlled robot to follow a black line. The workshop started with 3 days of involved lessons teaching the students 
+- How to use Fusion 360 to design their own robot body
+- How a microcontroller (MCU) works and the available communication protocols (UART, SPI, I2C)
+- How to program their MCU with Arduino to control motors and read input from sensors
+
+Students were then given 5 days to design and implement their own robot designs with the teaching team's help where necessary to compete on a circuit-themed course. Their CAD designs where passed to a 3D printing lab at UofT to manufacture their robot bodies. The final track and each team's robots can be seen below:
+
+***The competition caught the attention of the Chair of the ECE department at UofT, and upon being very impressed offered to support the workshop in future by providing a dedicated facility and full funding.***
 
 ### OSM ArcGIS Map (C++, GTK), *For School*
 Created an ArcGIS application by processing *OpenStreetMap (OSM)* geolocational data into an object oriented database and displayed the user interface using GTK. Additionally, data was called from the *OpenWeatherAPI* to have live weather display. The A* path finding algorithm was also used to form routes between two selected locations (ex: your home and a grocery store). The OSM data was parsed into the following inheritance hierarchy:
