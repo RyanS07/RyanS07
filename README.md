@@ -13,7 +13,7 @@ A majority of my projects are from internships/research terms or school. As such
 ### Line-Tracking Arduino Robot Workshop (Arduino, AutoDesk Fusino 360), *For Research Term*
 Designed and taught an 8-day workshop teaching first year electrical and computer engineering (ECE) students at UofT how to CAD, wire, and program an Arduino-controlled robot to follow a black line. ***The workshop was such a success that the Chair of the ECE Department at UofT offered to support the workshop in future with a dedicated facility and full funding.***
 
-The workshop started with 3 days of involved lessons teaching the students 
+The workshop started with 3 days of involved lessons teaching the students:
 - How to use Fusion 360 to design their own robot body
 - How a microcontroller (MCU) works and the available communication protocols (UART, SPI, I2C)
 - How to program their MCU with Arduino to read input from sensors and control motors (Analog, Digital, and PWM Pins)
