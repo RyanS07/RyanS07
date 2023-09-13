@@ -27,17 +27,27 @@ Student Designs
 ![alt text](https://github.com/RyanS07/RyanS07/blob/main/images/MicRobotics%20Teams.jpg)
 
 ### OSM ArcGIS Map (C++, GTK), *For School*
-Created an ArcGIS application by processing *OpenStreetMap (OSM)* geolocational data into an object oriented database and displayed the user interface using GTK. Additionally, data was called from the *OpenWeatherAPI* to have live weather display. The A* path finding algorithm was also used to form routes between two selected locations (ex: your home and a grocery store). The OSM data was parsed into the following inheritance hierarchy:
+Created an ArcGIS application by processing *OpenStreetMap (OSM)* geolocational data into an object oriented database and displayed the user interface using GTK. The OSM data was parsed into the following inheritance hierarchy:
 - MapElement 
   - StreetSegment
   - Intersection
   - Street
   - PointOfInterest (ex: Tim Hortons, T&T Supermarket, etc.)
   - Feature (ex: building, lakes, parks, etc.) 
+Additionally, data was requested from the *OpenWeatherAPI* to have live weather display. The A* path finding algorithm was also used to form routes between two selected locations (ex: your home and a grocery store). 
+
+HomeCook+ GUI
+![alt text](https://github.com/RyanS07/RyanS07/blob/main/images/HomeCook%2B%20Sample.png) 
 
 
 ### Boo Hunter (C, Arm), *For School*
 Created a Luigi's Mansion themed aim-labs game where the player needs to hit ghosts/boos that appear randomly around the screen. The app was written in C and could be played on a DE1-SoC board or CPUlator. User input was through PS2 keyboard interrupts and the switches and pushbuttons present on the board. The game state was managed using A9 timer interrupts.
+
+Boo Hunter Title Screen
+![alt text](https://github.com/RyanS07/RyanS07/blob/main/images/Boo%20Hunter%20Title%20Screen.png) 
+
+Boo Hunter In Game Screen
+![alt text](https://github.com/RyanS07/RyanS07/blob/main/images/Boo%20Hunter%20In%20Game.png) 
 
 ### Music Genre Classifier (Python, TensorFlow)
 Trained a convolutional neural network to predict the genre of a sample of music to 70% accuracy using TensorFlow and Keras. \
