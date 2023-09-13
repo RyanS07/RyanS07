@@ -1,7 +1,7 @@
 # Ryan Seto
 
 ## Contact  
-Resume: [Resume - Ryan Seto.pdf](https://github.com/RyanS07/RyanS07/blob/main/Software_Resume___Ryan_Seto.pdf) \
+Resume: [Resume - Ryan Seto.pdf](https://github.com/RyanS07/RyanS07/blob/main/Software_Resume_Ryan_Seto.pdf) \
 LinkedIn: https://www.linkedin.com/in/ryan-shi-an-seto/ \
 Email: [ryan.seto@mail.utoronto.ca](ryan.seto@mail.utoronto.ca)
 
