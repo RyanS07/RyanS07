@@ -8,7 +8,7 @@ Email: [ryan.seto@mail.utoronto.ca](ryan.seto@mail.utoronto.ca)
 ## Projects  
 
 ### Disclaimer
-A majority of my projects are from internships/research terms or school. As such, unfortunately I can't share much code here because their source codes cannot be shared publically.  
+A majority of my projects are from internships/research terms or school. As such, I cannot share any of their source code publically and I can only share samples of the projects.  
 
 ### Line-Tracking Arduino Robot Workshop (Arduino, AutoDesk Fusino 360), *For Research Term*
 Designed and taught an 8-day workshop teaching first year electrical and computer engineering (ECE) students at UofT how to CAD, wire, and program an Arduino-controlled robot to follow a black line. ***The workshop was such a success that the Chair of the ECE Department at UofT offered to support the workshop in future with a dedicated facility and full funding.***
