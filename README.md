@@ -11,7 +11,7 @@ Email: [ryan.seto@mail.utoronto.ca](ryan.seto@mail.utoronto.ca)
 A majority of my projects are from internships/research terms or school. As such, I cannot share any of their source code publically and I can only share samples of the projects.  
 
 ### Raspberry Pi Cluster For Solving Linear Systems in Parallel (Docker, Docker-Compose, Python, Flask, Linux), *For Research Term*
-Provisioned a Raspberry Pi (RPI) cluster using Docker Swarm to solve linear systems in parallel by deploying a Flask server to take requests to solve linear systems. The request would be processed into multiple tasks which would be published to a Redis Pub/Sub pipeline (message queue) for worker containers to consume. Workers would then solve and return determinants back to the Flask server for individual variables to be solved via Cramer's Rule. 
+Provisioned a Raspberry Pi (RPI) cluster using Docker Swarm to solve linear systems in parallel by deploying a Flask server to take requests to solve linear systems. The request would be processed into multiple tasks and published to a Redis Pub/Sub pipeline (message queue) for worker containers to consume. Workers would then solve and return determinants back to the Flask server for individual variables to be solved via Cramer's Rule. 
 
 RPI Cluster Pipeline
 ![alt text](https://github.com/RyanS07/RyanS07/blob/main/images/RPI%20Cluster%20Pipeline.png)
@@ -20,7 +20,7 @@ Using Docker Compose, six services were deployed across the cluster:
 - Flask server for managing incoming requests
 - Redis Pub/Sub for distributing asynchronous tasks
 - Workers to solve determinants in parallel
-- Private registry housing images for the server and workers
+- Private registry storing images for the server and workers
 - Portainer to have a dashboard for monitoring and managing the cluster
 - Portainer agents to give Portainer observability into each RPI
 
