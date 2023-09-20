@@ -22,9 +22,10 @@ Using Docker Compose, five services were deployed across the cluster:
 - The Workers with n replicas
 - A Portainer instance to have a dashboard for monitoring and managing the cluster
 - Portainer agents to give Portainer observability into each RPI
+
 The networking between each service and the outside environment can be found below. 
 
-RPI 
+RPI Networking Diagram
 ![alt text](https://github.com/RyanS07/RyanS07/blob/main/images/RPI%20Network%20Diagram.png)
 
 ### Line-Tracking Arduino Robot Workshop (Arduino, AutoDesk Fusino 360), *For Research Term*
