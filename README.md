@@ -24,7 +24,7 @@ Using Docker Compose, six services were deployed across the cluster:
 - Portainer to have a dashboard for monitoring and managing the cluster
 - Portainer agents to give Portainer observability into each RPI
 
-The networking between each service and the outside environment can be found below. The Swarm Load Balancer was responsible for redirecting all requests to any of the RPIs to the Flask server container. 
+The networking between each service and the outside environment can be found below. The Swarm Load Balancers redireced requests to any of the RPIs to the Flask server via the Ingress virtual network. The overlay virtual network connected the Flask server, Redis Pub/Sub, and Worker services together to facilitate the pipeline described above. 
 
 RPI Networking Diagram
 ![alt text](https://github.com/RyanS07/RyanS07/blob/main/images/RPI%20Network%20Block%20Diagram.png)
