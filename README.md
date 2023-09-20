@@ -27,11 +27,6 @@ The networking between each service and the outside environment can be found bel
 RPI 
 ![alt text](https://github.com/RyanS07/RyanS07/blob/main/images/RPI%20Network%20Diagram.png)
 
-
-
-
-to solve linear systems in parallel by deploying a Flask server that published tasks to a message queue with Docker Compose, and distributed asynchronous jobs across workers in a Docker Swarm
-
 ### Line-Tracking Arduino Robot Workshop (Arduino, AutoDesk Fusino 360), *For Research Term*
 Designed and taught an 8-day workshop teaching first year electrical and computer engineering (ECE) students at UofT how to CAD, wire, and program an Arduino-controlled robot to follow a black line. ***The workshop was such a success that the Chair of the ECE Department at UofT offered to support the workshop in future with a dedicated facility and full funding.***
 
