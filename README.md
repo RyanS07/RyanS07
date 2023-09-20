@@ -10,6 +10,17 @@ Email: [ryan.seto@mail.utoronto.ca](ryan.seto@mail.utoronto.ca)
 ### Disclaimer
 A majority of my projects are from internships/research terms or school. As such, I cannot share any of their source code publically and I can only share samples of the projects.  
 
+### Raspberry Pi Cluster For Solving Linear Systems in Parallel (Docker, Python, Flask, Linux), *For Research Term*
+Provisioned a Raspberry Pi cluster using Docker Swarm to solve linear systems in parallel by deploying a Flask server to take requests to solve linear systems. The request would be processed into multiple tasks which would be published to a Redis Pub/Sub pipeline (message queue) for worker containers to consume. Workers would then solve and return determinants back to the Flask server for individual variables to be solved via Cramer's Rule. 
+
+RPI Cluster Pipeline
+
+
+
+
+
+to solve linear systems in parallel by deploying a Flask server that published tasks to a message queue with Docker Compose, and distributed asynchronous jobs across workers in a Docker Swarm
+
 ### Line-Tracking Arduino Robot Workshop (Arduino, AutoDesk Fusino 360), *For Research Term*
 Designed and taught an 8-day workshop teaching first year electrical and computer engineering (ECE) students at UofT how to CAD, wire, and program an Arduino-controlled robot to follow a black line. ***The workshop was such a success that the Chair of the ECE Department at UofT offered to support the workshop in future with a dedicated facility and full funding.***
 
@@ -26,7 +37,7 @@ Final Competition Field
 Student Designs
 ![alt text](https://github.com/RyanS07/RyanS07/blob/main/images/MicRobotics%20Teams.jpg)
 
-### OSM ArcGIS Map (C++, GTK), *For School*
+### HomeCook+ (C++, GTK), *For School*
 Created an ArcGIS application by processing *OpenStreetMap (OSM)* geolocational data into an object oriented database and displayed the user interface using GTK. The OSM data was parsed into the following inheritance hierarchy:
 - MapElement 
   - StreetSegment
