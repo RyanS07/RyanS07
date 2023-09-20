@@ -16,10 +16,11 @@ Provisioned a Raspberry Pi (RPI) cluster using Docker Swarm to solve linear syst
 RPI Cluster Pipeline
 ![alt text](https://github.com/RyanS07/RyanS07/blob/main/images/RPI%20Cluster%20Pipeline.png)
 
-Using Docker Compose, five services were deployed across the cluster: 
+Using Docker Compose, six services were deployed across the cluster: 
 - Flask server for managing incoming requests
 - Redis Pub/Sub for distributing asynchronous tasks
 - Workers to solve determinants in parallel
+- Private registry housing images for the server and workers
 - Portainer to have a dashboard for monitoring and managing the cluster
 - Portainer agents to give Portainer observability into each RPI
 
