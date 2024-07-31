@@ -7,8 +7,16 @@ Email: [ryan.seto@mail.utoronto.ca](ryan.seto@mail.utoronto.ca)
 
 ## Projects  
 
-### Disclaimer
-A majority of my projects are from internships/research terms or school. As such, I cannot share any of their source code publically and I can only share samples of the projects.  
+### [Cursive Handwriting Decoder (Python, Pytorch, NumPy)](https://github.com/theskim/APS360S2024-Group3)
+Developed an CNN+LSTM model for decoding images of cursive handwriting into digital text. 
+- The CNN extracted visual features from the hand writing
+- The LSTM then processed these visual features left to right (and right to left) to emulate human reading
+- LSTM embeddings were then consolidated into predictions using Connectionist Temporal Classification (CTC)
+
+### [NucleAIse Protein Function Predictor (Python, PyTorch Geometric, BioPython, NumPy)](https://github.com/ambroseling/NucleAIse)
+Developed a GNN to incorporate structural data into protein sequence embeddings to create enriched CLS tokens for protein function prediction.
+- Generated graphs of protein amino acids based on physical proximity/contact maps and produced node embeddings using ProteinBERT
+- Applied graph attention to introduce physical structure data into the protein embeddings
 
 ### Raspberry Pi Cluster For Solving Linear Systems in Parallel (Docker, Docker-Compose, Python, Flask, Linux), *For Research Term*
 Provisioned a Raspberry Pi (RPI) cluster using Docker Swarm to solve linear systems in parallel by deploying a Flask server to take requests to solve linear systems. The request would be processed into multiple tasks and published to a Redis Pub/Sub pipeline (message queue) for worker containers to consume. Workers would then solve and return determinants back to the Flask server for individual variables to be solved via Cramer's Rule. 
