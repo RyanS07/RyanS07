@@ -18,7 +18,7 @@ Developed a GNN to incorporate structural data into protein sequence embeddings 
 - Generated graphs of protein amino acids based on physical proximity/contact maps and produced node embeddings using ProteinBERT
 - Applied graph attention to introduce physical structure data into the protein embeddings
 
-### Raspberry Pi Cluster For Solving Linear Systems in Parallel (Docker, Docker-Compose, Python, Flask, Linux), *For Research*
+### Raspberry Pi Cluster For Solving Linear Systems in Parallel (Docker, Docker-Compose, Python, Flask, Linux), \*For Research Term*
 Provisioned a Raspberry Pi (RPI) cluster using Docker Swarm to solve linear systems in parallel by deploying a Flask server to take requests to solve linear systems. The request would be processed into multiple tasks and published to a Redis Pub/Sub pipeline (message queue) for worker containers to consume. Workers would then solve and return determinants back to the Flask server for individual variables to be solved via Cramer's Rule. 
 
 RPI Cluster Pipeline
