@@ -77,8 +77,7 @@ Boo Hunter In Game Screen
 ![alt text](https://github.com/RyanS07/RyanS07/blob/main/images/Boo%20Hunter%20In%20Game.png) 
 
 ### [Music Genre Classifier (Python, TensorFlow)](https://github.com/RyanS07/music-genre-classifier)
-Trained a convolutional neural network to predict the genre of a sample of music to 70% accuracy using TensorFlow and Keras. \
-Repo Link: 
+Trained a convolutional neural network to predict the genre of a sample of music to 70% accuracy using TensorFlow and Keras. 
 
 ### Authentication Middleware (Python, FASTAPI), *For Work*
 Designed a middleware to handle user authentication requests from the front-end by redirecting them to a central authentication server away from the back-end. By using FASTAPI dependencies, I was able to attach permissions to a back-end endpoint through decorators and a list of all the permissions a request needs. This streamlined API development and was implemented in 10+ services. 
