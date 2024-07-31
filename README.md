@@ -18,7 +18,7 @@ Developed a GNN to incorporate structural data into protein sequence embeddings 
 - Generated graphs of protein amino acids based on physical proximity/contact maps and produced node embeddings using ProteinBERT
 - Applied graph attention to introduce physical structure data into the protein embeddings
 
-### Raspberry Pi Cluster For Solving Linear Systems in Parallel (Docker, Docker-Compose, Python, Flask, Linux), *For Research Term*
+### Raspberry Pi Cluster For Solving Linear Systems in Parallel (Docker, Docker-Compose, Python, Flask, Linux), *For Research*
 Provisioned a Raspberry Pi (RPI) cluster using Docker Swarm to solve linear systems in parallel by deploying a Flask server to take requests to solve linear systems. The request would be processed into multiple tasks and published to a Redis Pub/Sub pipeline (message queue) for worker containers to consume. Workers would then solve and return determinants back to the Flask server for individual variables to be solved via Cramer's Rule. 
 
 RPI Cluster Pipeline
@@ -88,13 +88,11 @@ def some_api_endpoint(...):
     print("This is a secure endpoint!")
 ```
  
-### Chemistry Database and Calculator (Java, JavaFX)
-Created a JavaFX application that imitated my high school chemistry data sheet with some additional ideal gas law calculators. \
-Repo Link: https://github.com/RyanS07/Chemistry-Database-and-Calculator
+### [Chemistry Database and Calculator (Java, JavaFX)](https://github.com/RyanS07/Chemistry-Database-and-Calculator)
+Created a JavaFX application that imitated my high school chemistry data sheet with some additional ideal gas law calculators. 
 
 ### Infrared Photobooth (Python, Flask, OpenCV), *For Work*
 In this project, I built a full-stack trade show demo using Flask that could take an infrared photo of the user in exchange for their contact information. After extracting the IR camera's footage using its SDK, I processed it using OpenCV to blend with another visible light camera and create 50/50 IR/VL footage. This footage was then streamed to the front end using multithreading. 
 
-### 1v1 Shooter Game (Java, JavaFX)
-Created a JavaFX game where two players can move vertically similarly to pong but instead of bouncing a ball they try to shoot each other. \
-Repo Link: https://github.com/RyanS07/JavaFX-Shooter-Game
+### [1v1 Shooter Game (Java, JavaFX)](https://github.com/RyanS07/JavaFX-Shooter-Game)
+Created a JavaFX game where two players can move vertically similarly to pong but instead of bouncing a ball they try to shoot each other. 
